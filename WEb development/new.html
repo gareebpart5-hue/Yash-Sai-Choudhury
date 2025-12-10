@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find First Occurrence</title>
+</head>
+<body>
+
+<h2>Find First Occurrence of "world"</h2>
+
+<script>
+    // Variable containing text
+    let txt = "Hello world, welcome to the world of JavaScript";
+
+    // Find position of first occurrence of "world"
+    let position = txt.indexOf("world");
+
+    // Display result in the browser
+    document.write("Text: " + txt + "<br>");
+    if (position !== -1) {
+        document.write("The first occurrence of 'world' is at position: " + position);
+    } else {
+        document.write("'world' was not found in the text.");
+    }
+</script>
+
+</body>
+</html>
+
+Write a Javascript programe that displays the position of the first occurrenceof 
+"world" in the variable txt
